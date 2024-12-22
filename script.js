@@ -1,6 +1,6 @@
 function firstWord(s) {
   // your code here
-	if (s === "" || !inputString.includes(" ")) {
+	if (s === "" || !s.includes(" ")) {
     return s; // Return the entire string
   }
 
