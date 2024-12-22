@@ -5,7 +5,7 @@ function firstWord(s) {
   }
 
   // Return the substring up to the first space
-  return s.split(" ")[0];
+  return s..trim().split(" ")[0];
 	
 }
 
